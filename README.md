@@ -1,5 +1,181 @@
 # SISPRECAS-Soft
 
+# Carpetas del proyecto
+
+proyecto-elecciones
+├── .git
+│  ├── hooks
+│  │  ├── applypatch-msg.sample
+│  │  ├── commit-msg.sample
+│  │  ├── fsmonitor-watchman.sample
+│  │  ├── post-update.sample
+│  │  ├── pre-applypatch.sample
+│  │  ├── pre-commit.sample
+│  │  ├── pre-merge-commit.sample
+│  │  ├── pre-push.sample
+│  │  ├── pre-rebase.sample
+│  │  ├── pre-receive.sample
+│  │  ├── prepare-commit-msg.sample
+│  │  ├── push-to-checkout.sample
+│  │  └── update.sample
+│  ├── info
+│  │  └── exclude
+│  ├── logs
+│  │  ├── refs
+│  │  │  └── heads
+│  │  │     └── main
+│  │  └── HEAD
+│  ├── objects
+│  │  ├── info
+│  │  └── pack
+│  ├── refs
+│  │  ├── heads
+│  │  │  └── main
+│  │  └── tags
+│  ├── COMMIT_EDITMSG
+│  ├── HEAD
+│  ├── config
+│  ├── description
+│  └── index
+├── controllers
+│  ├── candidatos.js
+│  ├── consultas.js
+│  ├── departamentos.js
+│  ├── formularioe14.js
+│  ├── login.js
+│  ├── mesas.js
+│  ├── municipios.js
+│  ├── partidos.js
+│  ├── puestosdevotacion.js
+│  ├── register.js
+│  ├── roles.js
+│  ├── usuarios.js
+│  └── zonas.js
+├── db
+│  ├── connection.js
+│  ├── queries.sql
+│  ├── tesis.sql
+│  ├── update-candidatos.sql
+│  └── views.sql
+├── frontend
+│  ├── public
+│  │  ├── images
+│  │  │  ├── opciones-de-voto
+│  │  ├── favicon.ico
+│  │  ├── index.html
+│  │  ├── logo.png
+│  │  ├── logo192.png
+│  │  ├── logo512.png
+│  │  ├── manifest.json
+│  │  ├── robots.txt
+│  │  └── user.png
+│  ├── src
+│  │  ├── components
+│  │  │  ├── common
+│  │  │  │  ├── CardsResultados.js
+│  │  │  │  ├── DocPdf.js
+│  │  │  │  ├── FormUsuario.js
+│  │  │  │  └── VistaPdf.js
+│  │  │  ├── hooks
+│  │  │  │  ├── CandidatosProvider.js
+│  │  │  │  ├── FiltrosProvider.js
+│  │  │  │  ├── FormularioProvider.js
+│  │  │  │  ├── MesasProvider.js
+│  │  │  │  ├── ResultadosProvider.js
+│  │  │  │  └── UsuariosProvider.js
+│  │  │  ├── pages
+│  │  │  │  ├── AgregarUsuario.js
+│  │  │  │  ├── Consultas.js
+│  │  │  │  ├── ConsultasMesasEnviadas.js
+│  │  │  │  ├── DetalleUsuario.js
+│  │  │  │  ├── EditarUsuario.js
+│  │  │  │  ├── Envios.js
+│  │  │  │  ├── Error404.js
+│  │  │  │  ├── FormularioE14.js
+│  │  │  │  ├── Inicio.js
+│  │  │  │  ├── Login.js
+│  │  │  │  ├── Perfil.js
+│  │  │  │  ├── Resultados.js
+│  │  │  │  └── Usuarios.js
+│  │  │  ├── tests
+│  │  │  │  ├── inicio.test.js
+│  │  │  │  ├── resultados.test.js
+│  │  │  │  └── usuario.test.js
+│  │  │  ├── ui
+│  │  │  │  ├── Footer.js
+│  │  │  │  ├── Header.js
+│  │  │  │  ├── Modal.js
+│  │  │  │  ├── Notificacion.js
+│  │  │  │  └── Spinner.js
+│  │  │  ├── App.js
+│  │  │  ├── Layout.js
+│  │  │  └── ProtectRoute.js
+│  │  ├── images
+│  │  │  ├── opciones-de-voto
+│  │  │  │  ├── user.png
+│  │  │  │  ├── votos-blancos.png
+│  │  │  │  ├── votos-no-marcados.png
+│  │  │  │  └── votos-nulos.png
+│  │  │  ├── bg-home.jpg
+│  │  │  ├── candidato-lider.png
+│  │  │  ├── logo-elecciones.png
+│  │  │  ├── logo-full.png
+│  │  │  ├── logo-sisprecas-soft.png
+│  │  │  ├── politico.png
+│  │  │  └── user-icon.png
+│  │  ├── services
+│  │  │  ├── mesas.js
+│  │  │  └── usuarios.js
+│  │  ├── utils
+│  │  │  └── utils.js
+│  │  ├── index.css
+│  │  └── index.js
+│  ├── LICENSE
+│  ├── package-lock.json
+│  ├── package.json
+│  ├── postcss.config.js
+│  └── tailwind.config.js
+├── tests
+│  ├── teardown.js
+│  └── usuarios_api.test.js
+├── uploads
+│  └── images
+│     ├── candidatos
+│     │  ├── alba-rocio-romero-garcia.png
+│     │  ├── cesar-augusto-ortiz-zorro.png
+│     │  ├── guillermo-alexander-velandia-granados.png
+│     │  ├── hector-manuel-balaguera-quintana.png
+│     │  ├── jacobo-rivera-gomez.png
+│     │  ├── joel-olmos-cordero.png
+│     │  ├── luis-alexis-garcia-barrera.png
+│     │  ├── marisela-duarte-rodriguez.png
+│     │  └── rubiela-benitex-enriquez.png
+│     ├── partidos
+│     │  ├── centro-democratico.jpg
+│     │  ├── coalicion-por-casanare.png
+│     │  ├── firmes-por-el-cambio.png
+│     │  ├── fuerza-ciudadana.jpg
+│     │  ├── fuerza_democratica.jpg
+│     │  ├── la-fuerza-de-la-paz.jpg
+│     │  ├── liga-anticorrupcion.jpg
+│     │  ├── pacto-historico.png
+│     │  └── salvacion-nacional.jpg
+│     ├── users
+│  ├── config.js
+│  ├── logger.js
+│  └── middleware.js
+├──  .eslintrc.js
+├── LICENSE
+├── README.md
+├── app.js
+├── index.js
+├── jest.config.js
+├── package-lock.json
+├── package.json
+└── vercel.json
+
+
+
 ## Backend
 
 ### 1. Crear una base de datos con PostgreSQL
