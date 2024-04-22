@@ -8,19 +8,6 @@
 proyecto-elecciones
 ├── .git
 │  ├── hooks
-│  │  ├── applypatch-msg.sample
-│  │  ├── commit-msg.sample
-│  │  ├── fsmonitor-watchman.sample
-│  │  ├── post-update.sample
-│  │  ├── pre-applypatch.sample
-│  │  ├── pre-commit.sample
-│  │  ├── pre-merge-commit.sample
-│  │  ├── pre-push.sample
-│  │  ├── pre-rebase.sample
-│  │  ├── pre-receive.sample
-│  │  ├── prepare-commit-msg.sample
-│  │  ├── push-to-checkout.sample
-│  │  └── update.sample
 │  ├── info
 │  │  └── exclude
 │  ├── logs
@@ -164,15 +151,6 @@ proyecto-elecciones
 ├── uploads
 │  └── images
 │     ├── candidatos
-│     │  ├── alba-rocio-romero-garcia.png
-│     │  ├── cesar-augusto-ortiz-zorro.png
-│     │  ├── guillermo-alexander-velandia-granados.png
-│     │  ├── hector-manuel-balaguera-quintana.png
-│     │  ├── jacobo-rivera-gomez.png
-│     │  ├── joel-olmos-cordero.png
-│     │  ├── luis-alexis-garcia-barrera.png
-│     │  ├── marisela-duarte-rodriguez.png
-│     │  └── rubiela-benitex-enriquez.png
 │     ├── partidos
 │     │  ├── centro-democratico.jpg
 │     │  ├── coalicion-por-casanare.png
@@ -184,44 +162,6 @@ proyecto-elecciones
 │     │  ├── pacto-historico.png
 │     │  └── salvacion-nacional.jpg
 │     ├── users
-│     │  ├── 1695485031102-01grk.jpg
-│     │  ├── 1695485098454-4tinv.jpg
-│     │  ├── 1695486237042-tntez.jpg
-│     │  ├── 1695487022286-6hpdo.jpg
-│     │  ├── 1695487098956-9d4o6.jpg
-│     │  ├── 1695487244735-put6f.jpg
-│     │  ├── 1695487853814-p4sg7.jpg
-│     │  ├── 1695487904372-tvqwr.jpg
-│     │  ├── 1695490029574-k41tl.jpg
-│     │  ├── 1695490076804-gqzb9.jpg
-│     │  ├── 1695490167394-igi8z.jpg
-│     │  ├── 1695490191143-jbsw0.jpg
-│     │  ├── 1695490287965-wyeh6.jpg
-│     │  ├── 1695490401104-n115r.jpg
-│     │  ├── 1695490413541-zdijn.jpg
-│     │  ├── 1695500290846-wm2lb.jpg
-│     │  ├── 1695500820244-vdfyi.jpg
-│     │  ├── 1695500889408-8n2on.png
-│     │  ├── 1695501082109-cq91p.png
-│     │  ├── 1695502137783-fu7mo.jpg
-│     │  ├── 1695502243304-qgqiy.jpg
-│     │  ├── 1695571968054-ypda0.jpg
-│     │  ├── 1695572118924-egng4.jpg
-│     │  └── user-icon.png
-│     ├── 1695419998947-2mmy5.jpg
-│     ├── 1695421078956-q5ahp.jpg
-│     ├── 1695423195966-gc5py.jpg
-│     ├── 1695427168745-7spum.jpg
-│     ├── 1695427268296-730e3.jpg
-│     ├── 1695427320412-nirgi.jpg
-│     ├── 1695430472615-te1x5.jpg
-│     ├── 1695430622843-6z919.jpg
-│     ├── 1695430862186-dfoit.jpg
-│     ├── 1695430931695-51sgw.jpg
-│     ├── 1695434330333-1i1en.png
-│     ├── 1695446617478-s0zb7.png
-│     ├── 1695456692654-epzap.jpg
-│     └── 1695484938513-75nyu.png
 ├── utils
 │  ├── config.js
 │  ├── logger.js
